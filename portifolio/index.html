@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+    <script src="assets/js/actions.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <img src="assets/img/text-1738591855030-removebg-preview.png" alt="portifolio">
+        <p>SENAI "AVAK BEDOUIAN</p>
+    </header>
+
+    <main>
+        <div class="sobremim">
+            <h2>Sobre mim</h2>
+            <p class="texto">Bem-vindo ao meu portfólio de Desenvolvimento de Sistemas.
+                Eu me chamo Lívia Gomes de Carvalho, e sou aluna do SENAI "AVAK BEDOUIAN", possuo facilidade em front-end.
+                 Aqui, você encontrará alguns dos meus projetos desenvolvidos, 
+                 habilidades e experiências na área de TI, que refletem meu 
+                 compromisso com a inovação, eficiência e solução de problemas.</p> 
+        </div>
+
+        <div>
+            <h2 class="meusprojetos">MEUS PROJETOS</h2>
+        </div>
+
+        <section class="calculadora">
+                <h5>CALCULADORA</h5>
+
+                <div>
+                    <label for="">Informe um número:</label>
+                    <input type="text" name="num1" id="num1">
+                </div>
+    
+                <div>
+                    <label for="">Informe um número:</label>
+                    <input type="text" name="num2" id="num2">
+                </div>
+
+                <button id="btncalcular">Calcular</button>
+
+                <div>
+                    <p>Resultado:</p>
+                    <p id="resultado"></p>
+                </div>
+        </section>
+
+        <section>
+
+            <div class="projetos">
+                <h5>SITE FOTÓGRAFO</h5>
+                <img src="assets/img/site controle.png" alt="site">
+                <img src="assets/img/site financeiro.png" alt="site">
+            </div>
+    
+            <div class="projetos">
+                <h5>SITE DOGDÓI</h5>
+                <img src="assets/img/site dogdodoi.png" alt="site">
+            </div>
+
+            <div class="projetos">
+                <h5>SITE CURSO SENAI</h5>
+                <img src="assets/img/site curso.png" alt="site">
+            </div>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>GOSTOU? ENTRE EM CONTATO:</p>
+        <form id="formulario">
+            <div>
+                <label for="nome">NOME:</label>
+                <input type="text" id="nome" name="nome" required>   
+            </div>
+            
+            <div>
+                <label for="email">E-MAIL:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="mensagem">MENSAGEM:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+            </form>
+        <p> ©2025-Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

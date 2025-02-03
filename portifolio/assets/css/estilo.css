@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: #fef1e0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+header img{
+    text-align: center;
+    padding-left: 300px;
+}
+
+header p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.calculadora {
+        text-align: center;
+        padding: 40px 0px;
+        padding: 40px;
+        border: 2px;
+        margin-top: 30px;
+        border-radius: 20px;
+        margin-left: 250px;
+        margin-right: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background-color: #d38f9f;
+        text-align: center;
+        font-size: 30px;
+
+
+    
+}
+
+main {
+    background-color: #fef1e0;
+    padding-top: 20px;
+    padding-left: 20px; 
+}
+
+.sobremim {
+        background-color: #d38f9f;
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 800px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        font-size: 30px;
+        margin-bottom: 50px;
+
+}
+
+div h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+.projetos {
+        padding: 40px;
+        border: 2px;
+        margin-top: 45px;
+        border-radius: 20px;
+        margin-left: 250px;
+        margin-right: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background-color: #d38f9f;
+        text-align: center;
+        font-size: 30px;
+
+    
+}
+
+section div h5 {
+    margin-bottom: 10px;
+}
+
+section div img {
+    text-align: center;
+    width: 250px;
+}
+
+form {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form textarea {
+    width: 28%;
+    box-sizing: border-box; 
+    height: 23px; 
+}
+
+form button {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #8b4d5d;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    header img {
+        width: 55%;
+    }
+    section div img {
+        width: 100px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    header img {
+        width: 26%;
+        padding-left: 100px;
+        
+    }
+
+    section div img {
+        width: 112px;
+    }
+
+    .calculadora {
+        margin-left: 2px;
+        margin-right: 16px;
+    }
+
+    .projetos {
+        font-size: 17px;
+        margin-left: 123px;
+        padding: 121px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    section div img {
+        width: 100px;
+    }
+
+    .calculadora {
+        margin-left: 1px;
+        margin-right: 10px;
+    }
+
+    .projetos {
+        font-size: 15px;
+        margin-left: 90px;
+        padding: 90px;
+    }
+
+}
