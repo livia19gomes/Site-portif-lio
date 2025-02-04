@@ -52,6 +52,7 @@ main {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         font-size: 30px;
         margin-bottom: 50px;
+        
 
 }
 
@@ -77,6 +78,10 @@ div h2 {
         font-size: 30px;
 
     
+}
+
+.pytonimg {
+    width: 400px;
 }
 
 section div h5 {
@@ -127,13 +132,17 @@ footer p {
     section div img {
         width: 100px;
     }
+
+    .pytonimg {
+        width: 96px;
+    }
     
 }
 
 @media (max-width: 425px) {
     header img {
         width: 26%;
-        padding-left: 100px;
+        padding-left: 101px;
         
     }
 
@@ -150,6 +159,10 @@ footer p {
         font-size: 17px;
         margin-left: 123px;
         padding: 121px;
+    }
+
+    .pytonimg {
+        width: 96px;
     }
 
 
